@@ -1,0 +1,103 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				}
+		},
+		{
+			"path": "pages/block/index",
+			"style": {
+				"navigationBarTitleText": "区块"
+			}
+		},
+		{
+			"path": "pages/block/blockInfo",
+			"style": {
+				"navigationBarTitleText": "区块详情"
+			}
+		},
+		{
+			"path": "pages/account/index",
+			"style": {
+				"navigationBarTitleText":"账户"
+			}
+		},
+		{
+			"path": "pages/account/accountInfo",
+			"style": {
+				"navigationBarTitleText":"账户详情"
+			}
+		},
+		{
+			"path": "pages/transaction/index",
+			"style": {
+				"navigationBarTitleText":"交易"
+			}
+		},
+		{
+			"path": "pages/consensus/index",
+			"style": {
+				"navigationBarTitleText":"共识"
+			}
+		},
+		{
+			"path": "pages/contract/index",
+			"style": {
+				"navigationBarTitleText":"合约"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#8F8F94",
+		"selectedColor": "#7db46d",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/block/index",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "区块"
+			},
+			{
+				"pagePath": "pages/account/index",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "账户"
+			},
+			{
+				"pagePath": "pages/transaction/index",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "交易"
+			},
+			{
+				"pagePath": "pages/consensus/index",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "共识"
+			},
+			{
+				"pagePath": "pages/contract/index",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "合约"
+			}
+		]
+	}
+}
